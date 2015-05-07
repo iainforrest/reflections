@@ -1,0 +1,21 @@
+Lessson 2 reflection
+
+Commands Learnt:
+git init - initialise a local git repository
+git status - see the status of the repository plus any un tracked files.
+git add "file" - move file to the git staging area. 
+				- use to add files one at a time
+
+
+Q. What happens when you initialize a repository? Why do you need to do it?
+A. when you initialise the respository the .git directory is created. 
+The reason we need to do this is to start the store of the git commit history.
+
+Q.How is the staging area different from the working directory 
+and the repository? What value do you think it offers?
+A. A staging area is the limbo space between your working directory and 
+the respoitory. The value of it is that we can add files to it as we work 
+on them and then move all of them into the commit at the end. Also if we 
+end up removing changes to a file before commiting we can remove the 
+file from the staging area and not have unnesecary files in the commit.
+
