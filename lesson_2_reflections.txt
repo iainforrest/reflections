@@ -9,6 +9,9 @@ git commit  - add a note to the commit and move files from staging to respositor
 git diff  - compares working diretcory with staging area
 git diff --staged  - compares staging area with most resent commnit in repo
 git checkout master  - return to the head of the repo
+git branch  - display branches in repo - * indicates branch being worked on 
+git branch "new name" - create a new branch
+git checkout "branch name" - selects a branch to work on / view
 
 
 Q. What happens when you initialize a repository? Why do you need to do it?
@@ -29,3 +32,8 @@ A. If you have worked on multiple files at the same time you can run
 git diff to compare the working diretcory to the staging area and then
 use the staging area to commit changes / files one at a time. 
 
+Q.What are some situations when branches would be helpful in keeping 
+your history organized? How would branches help?
+A. branches are a great way to test out new experimental features 
+until you get them working correctly. Or for working on other 
+variations until you're ready to merge the work together.
