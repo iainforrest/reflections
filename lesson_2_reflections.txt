@@ -5,6 +5,10 @@ git init - initialise a local git repository
 git status - see the status of the repository plus any un tracked files.
 git add "file" - move file to the git staging area. 
 				- use to add files one at a time
+git commit  - add a note to the commit and move files from staging to respository
+git diff  - compares working diretcory with staging area
+git diff --staged  - compares staging area with most resent commnit in repo
+git checkout master  - return to the head of the repo
 
 
 Q. What happens when you initialize a repository? Why do you need to do it?
@@ -18,4 +22,10 @@ the respoitory. The value of it is that we can add files to it as we work
 on them and then move all of them into the commit at the end. Also if we 
 end up removing changes to a file before commiting we can remove the 
 file from the staging area and not have unnesecary files in the commit.
+
+Q.How can you use the staging area to make sure you have 
+one commit per logical change?
+A. If you have worked on multiple files at the same time you can run
+git diff to compare the working diretcory to the staging area and then
+use the staging area to commit changes / files one at a time. 
 
