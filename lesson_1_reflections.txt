@@ -1,0 +1,37 @@
+Reflections for Github Lesson 1
+
+Commands Learnt
+git log - view history of commits
+git diff a b - view difference added to b from a
+git clone http  - download and clone a repository
+
+
+Q. How did viewing the diff between two versions of a file help you see the bug that was intruduced?
+A. It showed the differences in the lines
+
+Q. What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google docs does?
+A. pros of saving manually are that you get to choose when to save, this means that the save locations
+are likely to have more relevance than an auto save. 
+Autosave could me you get saves when things aren't working and could get confusing. Also you could end up with more saves than you need.
+
+Q.Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+A. Git is designed for developers who often have multiple files that effect each other.
+Therefore it makes sense to save files together.
+Something like google docs is deisgned more for stand alone files.
+
+Q.How can you use the commands git log and git diff to view the history of files?
+A. use git log in the the git directory to get a list of all the commits including the short descriptions.
+Then using this log you can get the ID for the commits that you want to directly compare. 
+Then use 
+git diff ID1 ID2
+you can also use this using just the first 4 characters of the ID
+
+Q.How might using version control make you more confident to make changes that could break something?
+A. by using version control we can also compare to an old version where we know something was working. 
+We can then use this to pinpoint the commit where the bug was introduced / the program was borken.
+From there we can can edit the current version to unbrake it.
+
+Q.Now that you have your workspace set up, what do you want to try using Git for?
+A. storing versions of programs that I develop
