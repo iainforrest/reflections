@@ -2,8 +2,10 @@ Overview of Learning.
 1. creating a repository on Github and then pushing the local files online.
 
 Commands Learnt.
+git remote add name http - create a remote location
 git push remote_to remote_from - used to commit files from remote_from to the files stored at remote_to
 git pull remote_from local - updates the local repository with any commits made on remote_from
+
 
 Q. When would you want to use a remote repository rather than keeping all your work local?
 A. All the time.
