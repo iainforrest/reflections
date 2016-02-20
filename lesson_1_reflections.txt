@@ -4,7 +4,7 @@ Commands Learnt
 git log - view history of commits
 git diff a b - view difference added to b from a
 git clone http  - download and clone a repository
-git chekout ID - move the commit from ID to the working directory
+git chekout ID - move the commit from ID to the working directoryx
 
 
 Q. How did viewing the diff between two versions of a file help you see the bug that was intruduced?

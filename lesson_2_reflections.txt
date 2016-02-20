@@ -12,6 +12,7 @@ git checkout master  - return to the head of the repo
 git branch  - display branches in repo - * indicates branch being worked on 
 git branch "new name" - create a new branch
 git checkout "branch name" - selects a branch to work on / view
+git log --graph --oneline "branch" "branch" - visual representation of branches
 
 
 Q. What happens when you initialize a repository? Why do you need to do it?
@@ -37,3 +38,6 @@ your history organized? How would branches help?
 A. branches are a great way to test out new experimental features 
 until you get them working correctly. Or for working on other 
 variations until you're ready to merge the work together.
+
+Q.How do the diagrams help you visualize the branch structure?
+A. the visual graph lets you work through where branches started. 
