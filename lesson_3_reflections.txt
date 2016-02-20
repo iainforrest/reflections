@@ -1,0 +1,12 @@
+Overview of Learning.
+1. creating a repository on Github and then pushing the local files online.
+
+Commands Learnt.
+git push remote_to remote_from - used to commit files from remote_from to the files stored at remote_to
+
+Q. When would you want to use a remote repository rather than keeping all your work local?
+A. All the time. 
+i) It creates an online backup of your work in case something happens to your local machine. 
+ii) It means that you can access the files from machines other than your own.
+iii) when you have a project with multiple developers working on it. You have one centralised code depository.
+
